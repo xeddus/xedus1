@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'capture_itrus_by_lyajkaRg';
+    src: url('11991-webfont.woff2') format('woff2'),
+         url('11991-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+	background: url(../img/back.png);
+	font-family: "capture_itrus_by_lyajkaRg", sans-serif;
+}
+.timer {
+	font-size: 128pt;
+	color: white;
+}
+.timer2 {
+	position: relative;
+	left: 230px;
+	bottom: 80px;
+	font-size: 32pt;
+	color: white;
+}
+a {
+	cursor: pointer;
+}
+.center {
+	margin-top: 12em;
+}

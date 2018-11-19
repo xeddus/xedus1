@@ -1,9 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>test</title>
+  <meta charset="utf-8">
+  <title>DANYA</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-<img width="1280" height="720" src="img/1.jpg">
+  <div class="center">
+  <center>
+    <a target="_blank" href="https://vk.com/daniil202093">
+      <img src="img/logo.png">
+    </a>
+  </center>
+  <center>
+    <div class="timer" id="cell">3500</div>
+  <script type="text/javascript">
+    var updateTimer = function() {
+  var cell = document.getElementById('cell');
+  var count = Number(cell.innerHTML);
+
+  cell.innerHTML = count += 1;
+};
+
+setInterval(updateTimer, 2000); 
+  </script>
+  </center>
+<center>
+  <span class="timer2">RUB</span>
+  <audio src="sound/25bb196bd63589.mp3" loop autoplay></audio>
+</center>
+</div>
 </body>
 </html>
